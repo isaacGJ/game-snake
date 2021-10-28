@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es" class="has-background-dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Snake!</title>
+    <link rel="icon" href="snake-icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+<section class="section">
+    <h3 class="score-text">Score: <span class="score">0</span></h3>
+    <div class="container">
+        <div class="map">
+            <div class="columns menu-snake mt-4">
+                <div class="column is-4 is-offset-4">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="content">
+                                <div class="column is-size-2 has-text-centered">Game Snake</div>
+                                <button class="button is-medium is-fullwidth is-primary mb-4" onclick="startGame();">Comenzar</button>
+                                <div class="colors">
+                                    <div class="columns">
+                                        <div class="column is-3">
+                                            <button class="button pink is-fullwidth"></button>
+                                        </div>
+                                        <div class="column is-3">
+                                            <button class="button blue is-fullwidth"></button>
+                                        </div>
+                                        <div class="column is-3">
+                                            <button class="button yellow is-fullwidth"></button>
+                                        </div>
+                                        <div class="column is-3">
+                                            <button class="button orange is-fullwidth"></button>
+                                        </div>
+                                    </div>
+                                    <div class="columns">
+                                        <div class="column is-3">
+                                            <button class="button red is-fullwidth"></button>
+                                        </div>
+                                        <div class="column is-3">
+                                            <button class="button purple is-fullwidth"></button>
+                                        </div>
+                                        <div class="column is-3">
+                                            <button class="button white is-fullwidth"></button>
+                                        </div>
+                                        <div class="column is-3">
+                                            <button class="button black is-fullwidth"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="snake.js"></script>
+</html>

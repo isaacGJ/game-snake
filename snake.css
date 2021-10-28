@@ -1,0 +1,83 @@
+
+
+.map{
+    width: 1000px;
+    height: 800px;
+    border: 1px solid white;
+    margin: auto;
+    position: relative;
+}
+
+.menu-snake .card{
+    z-index: 10;
+}
+
+.body-snake{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+
+.food{
+    width: 10px;
+    height: 10px;
+    background-color: #40c5ff;
+    -webkit-box-shadow: 0px 0px 6px 0px #40c5ff;
+    box-shadow: 0px 0px 6px 0px #40c5ff;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.score-text{
+    color: white;
+    text-align: center;
+}
+
+.pink{
+    background-color: #ff90cd;
+    -webkit-box-shadow: 0px 0px 6px 0px #ff90cd;
+    box-shadow: 0px 0px 6px 0px #ff90cd;
+}
+
+.blue{
+    background-color: #008bff;
+    -webkit-box-shadow: 0px 0px 6px 0px #008bff;
+    box-shadow: 0px 0px 6px 0px #008bff;
+}
+
+.yellow{
+    background-color: #ffda00;
+    -webkit-box-shadow: 0px 0px 6px 0px #ffda00;
+    box-shadow: 0px 0px 6px 0px #ffda00;
+}
+
+.orange{
+    background-color: #ff8e00;
+    -webkit-box-shadow: 0px 0px 6px 0px #ff8e00;
+    box-shadow: 0px 0px 6px 0px #ff8e00;
+}
+
+.red{
+    background-color: #ff545b;
+    -webkit-box-shadow: 0px 0px 6px 0px #ff545b;
+    box-shadow: 0px 0px 6px 0px #ff545b;
+}
+
+.purple{
+    background-color: #b95fff;
+    -webkit-box-shadow: 0px 0px 6px 0px #b95fff;
+    box-shadow: 0px 0px 6px 0px #b95fff;
+}
+
+.white{
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 6px 0px white;
+    box-shadow: 0px 0px 6px 0px white;
+}
+
+.black{
+    background-color: black;
+    -webkit-box-shadow: 0px 0px 6px 0px black;
+    box-shadow: 0px 0px 6px 0px black;
+}
+
